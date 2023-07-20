@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function scope example</title>
+  </head>
+  <body>
+    <script>
+      //   const x = 1;
+
+      //   function a() {
+      //     const y = 2;
+      //     output(y);
+      //   }
+
+      //   function b() {
+      //     const z = 3;
+      //     output(z);
+      //   }
+
+      //   function a() {
+      //     const y = 2;
+      //     output(x);
+      //   }
+
+      //   function b() {
+      //     const z = 3;
+      //     output(x);
+      //   }
+
+      //   function output(value) {
+      //     const para = document.createElement("p");
+      //     document.body.appendChild(para);
+      //     para.textContent = `Value: ${value}`;
+      //   }
+
+      //   output(x);
+      //   output(y);
+      //   output(z);
+      //   a();
+      //   b();
+
+      //   function exampleFunction() {
+      //     const x = "declared inside function"; // x can only be used in exampleFunction
+      //     console.log("Inside function");
+      //     console.log(x);
+      //   }
+
+      //   console.log(x); // Causes error
+
+      // const x = "declared inside function";
+
+      // exampleFunction();
+
+      // function exampleFunction() {
+      // 	console.log("Inside function");
+      // 	console.log(x);
+      // }
+
+      // console.log("Outside function");
+      // console.log(x);
+      {
+        var x = 1;
+      }
+      console.log(x);
+    </script>
+  </body>
+</html>
