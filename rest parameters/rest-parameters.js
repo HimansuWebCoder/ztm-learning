@@ -29,3 +29,19 @@ function array(a, b, ...rest) {
 }
 
 array("a", "b", "c", "D", "e");
+
+function allEvent(e, evt, event, ...rest) {
+  return `${e} ${evt} ${event} ${rest}`;
+}
+
+const allevents = allEvent(
+  "Himansu",
+  "Rinky",
+  "Sipu",
+  "papuni",
+  "mamuni",
+  "Abhi",
+  "abinash",
+  "akash"
+);
+allevents;
